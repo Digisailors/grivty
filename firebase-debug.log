@@ -1,0 +1,13 @@
+[debug] [2020-08-14T10:50:26.200Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T10:50:26.201Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rajab\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:digisailordemo --project digiweb
+[debug] [2020-08-14T10:50:26.202Z] CLI Version:   8.7.0
+[debug] [2020-08-14T10:50:26.202Z] Platform:      win32
+[debug] [2020-08-14T10:50:26.202Z] Node Version:  v12.14.0
+[debug] [2020-08-14T10:50:26.203Z] Time:          Fri Aug 14 2020 16:20:26 GMT+0530 (India Standard Time)
+[debug] [2020-08-14T10:50:26.203Z] ----------------------------------------------------------------------
+[debug] [2020-08-14T10:50:26.203Z] 
+[debug] [2020-08-14T10:50:26.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-14T10:50:26.213Z] > authorizing via signed-in user
+[debug] [2020-08-14T10:50:26.213Z] [iam] checking project digiweb for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-14T10:50:26.216Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/digiweb:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
